@@ -1,0 +1,22 @@
+
+
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+
+/*wildcardselector - applies to whole page*/
+*{
+    font-family: 'Cute Font' ,sans-serif;
+    font-size: 10vh;
+}
+
+
+
+/*general styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+
+    flex-direction: column;
+
+    background-color: pink;
+}
