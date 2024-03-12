@@ -19,6 +19,24 @@ body {
     justify-content: center;
 }
 
+.nav{
+    padding: 1%;
+    font-size: 5vh;
+    text-decoration: none;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.heading{
+    text-align: center;
+    text-decoration: underline;
+    margin: 1vh;
+}
+
 h1{
     font-size: 10vh;
 }
@@ -60,6 +78,7 @@ h4{
     color: white;
 }
 
+/* rock paper game*/
 
 #res{
     text-align: center;
@@ -75,6 +94,7 @@ h4{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(67, 157, 67);
 }
 
 #human{
@@ -87,6 +107,7 @@ h4{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(67, 157, 67);
 }
 
 
