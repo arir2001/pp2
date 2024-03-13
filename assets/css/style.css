@@ -14,6 +14,7 @@
 body {
     min-height: 100vh;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     background-color: green;
     justify-content: center;
@@ -47,6 +48,7 @@ h2{
 
 h3{
     font-size: 5vh;
+    text-align: center;
 }
 
 h4{
@@ -125,7 +127,11 @@ h4{
 /* memory */
 
 .sec{
-    
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    border-style: dotted;
+    border-width: 5px;
 }
 
 #grid {
