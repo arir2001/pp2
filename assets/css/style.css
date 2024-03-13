@@ -121,3 +121,17 @@ h4{
 .gam{
     height: 90vh;
 }
+
+/* memory */
+
+#grid {
+    width: 400px; 
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+img{
+    width: 100px;
+    height: 100px
+}
