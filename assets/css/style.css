@@ -145,3 +145,35 @@ img{
     width: 100px;
     height: 100px
 }
+
+
+/*whackamole*/
+
+.grid2{
+    height: 606px;
+    width: 606px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square{
+    height: 200px;
+    width:200px;
+    border: black solid 1px;
+}
+
+.hed{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.center{
+    text-align: center;
+    text-decoration: dashed;
+}
+
+.mole{
+    background-color: blue;
+}
