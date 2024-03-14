@@ -20,25 +20,6 @@ https://stackoverflow.com/questions/30125705/css-how-to-make-an-element-fade-in-
 
 
 
+random num bers code:
 
-
-
-    if (time <= endtime){
-
-        setInterval(randomsquare(), 200)
-
-        time  -= 1;
-        console.log(time)
-
-    } else if (time == 0){
-
-            gameover()
-
-        }else {
-                startgame()
-            }
-
-
-gameover(){
-    alert("Game Over!")
-}
+https://stackoverflow.com/questions/2380019/generate-unique-random-numbers-between-1-and-100
