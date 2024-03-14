@@ -1,4 +1,4 @@
-const square = document.querySelectorAll('.square')
+const squares = document.querySelectorAll('.square')
 
 const mole = document.querySelector('.mole')
 
@@ -9,14 +9,14 @@ const score = document.querySelector('#score')
 
 let result  = 0
 
-
 function randomsquare(){
     squares.forEach(square => {
         square.classList.remove('mole')
     } )
 
-    let randomPosition = squares[Math.floor(Math.random() * 9)]
-    console.log(random.randomPosition)
-}
+    let randomsquare= squares[Math.floor(Math.random() * 9)]
 
-randomsquare()
+    console.log("this is", randomsquare)
+
+    randomsquare.classList.add('mole')
+}
