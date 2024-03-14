@@ -1,22 +1,37 @@
-const squares = document.querySelectorAll('.square')
+const squares = document.querySelectorAll('.square');
 
-const mole = document.querySelector('.mole')
+const mole = document.querySelector('.mole');
 
-const timeleft = document.querySelector('#time-left')
+let timeleft = document.querySelector('#time-left');
 
-const score = document.querySelector('#score')
+let time = 60;
+
+const endtime = 60;
+
+const score = document.querySelector('#score');
 
 
-let result  = 0
+let result  = 0;
 
 function randomsquare(){
     squares.forEach(square => {
-        square.classList.remove('mole')
+        square.classList.remove('mole');
     } )
 
-    let randomsquare= squares[Math.floor(Math.random() * 9)]
+    let randomsquare= squares[Math.floor(Math.random() * 9)];
 
-    console.log("this is", randomsquare)
-
-    randomsquare.classList.add('mole')
+    randomsquare.classList.add('mole');
 }
+
+
+function moveMole(event){
+    event.stopPropagation();
+
+    let timerId = null;
+
+    timerId = setInterval(randomsquare, 300);
+}
+
+const mybutton =  document.querySelector("#mybigbutton")
+
+mybutton.addEventListener('click' , moveMole() )

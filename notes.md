@@ -17,3 +17,28 @@ text game including mini games:
 
 fadeing message:
 https://stackoverflow.com/questions/30125705/css-how-to-make-an-element-fade-in-and-then-fade-out
+
+
+
+
+
+
+    if (time <= endtime){
+
+        setInterval(randomsquare(), 200)
+
+        time  -= 1;
+        console.log(time)
+
+    } else if (time == 0){
+
+            gameover()
+
+        }else {
+                startgame()
+            }
+
+
+gameover(){
+    alert("Game Over!")
+}
