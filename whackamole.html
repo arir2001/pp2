@@ -13,23 +13,31 @@
     <h3> Whackamole</h3>
 
     <section class="hed">
+        <div id="main-div">
+            <button type="button" onclick="startstop(false)" id="mybigbutton"> play game </button>
+            <button type="button" onclick="startstop(true)" id="mybigbutton2"> stop game </button>
+        </div>
+    </section>
+
+    <section class="hed">
         <div class="center">
             <h4> Your score:</h4>
             <h4 id="score"> 0</h4>
         </div>
 
-        <div id="main-div">
-            <button type="button" onclick="startstop(false)" id="mybigbutton"> play game </button>
-            <button type="button" onclick="startstop(true)" id="mybigbutton2"> stop game </button>
+        <div class="center">
+            <h4> Oopsie!:</h4>
+            <h4 id="oopsiescore"> 0</h4>
         </div>
 
-        <div class="center"> 
-            <h4> Time Left:</h4>
-            <h4 id="time-left"> 60</h4>
+        <div class="center">
+            <h4> Mole's score:</h4>
+            <h4 id="molescore"> 0</h4>
         </div>
+
     </section>
 
-    <section class="hed">
+    <section class="gamesection">
         <div class="grid2"> 
             <div class="square" id="1"></div>
             <div class="square" id="2"></div>
@@ -41,6 +49,19 @@
             <div class="square" id="8"></div>
             <div class="square" id="9"></div>
 
+        </div>
+
+        <div id = "levels">
+            <div class="timeleftdiv"> 
+                <h4> Time Left:</h4>
+                <h4 id="time-left"> 60</h4>
+            </div>
+    
+            <div id="levels">
+                <button type="button" id = "level2"> <a href="level2"> Level 2</a> </button>
+                <button type="button" id = "level3"> <a href="level3"> Level 3</a> </button>
+            </div>
+    
         </div>
 
     </section>
