@@ -176,8 +176,6 @@ img{
     flex-direction: row;
 }
 
-
-
 .center{
     text-align: center;
     text-decoration: dashed;
@@ -190,29 +188,55 @@ img{
     white-space: nowrap;
 }
 
-.mole{
-    background-image: url("../pics/mole_ai.png");
+
+.mound{
+    background-image: url("../pics/mound.png");
     background-size: 200px;
     width: 200px;
     height: 200px;
-    z-index: 2;
 }
 
-.soil{
-    background-image: url("../pics/soil_background.png");
+.molehint{
+    background-image: url("../pics/molehint.png");
     background-size: 200px;
     width: 200px;
     height: 200px;
-    z-index: -10;
+}
+
+.friendhint{
+    background-image: url("../pics/friendhint.png");
+    background-size: 200px;
+    width: 200px;
+    height: 200px;
+}
+
+.trickhint{
+    background-image: url("../pics/moletrickhint.png");
+    background-size: 200px;
+    width: 200px;
+    height: 200px;
+}
+
+.mole{
+    background-image: url("../pics/mole.png");
+    background-size: 200px;
+    width: 200px;
+    height: 200px;
 }
 
 
 .trick{
-    background-color: lightblue;
+    background-image: url("../pics/moletrickumberella.png");
+    background-size: 200px;
+    width: 200px;
+    height: 200px;
 }
 
 .friend{
-    background-color: pink;
+    background-image: url("../pics/rabbitpop.png");
+    background-size: 200px;
+    width: 200px;
+    height: 200px;
 }
 
 #levels{
